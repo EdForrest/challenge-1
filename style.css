@@ -4,7 +4,7 @@
 }
 
 .page2 *{
-  font-family: sans-serif;
+  font-family: 'Roboto';
   text-align:left;
 }
 
@@ -15,6 +15,7 @@
 nav{
   padding-top: 2vh;
   padding-bottom: 2vh;
+  background-color: grey;
 }
 nav li{
     display: inline-block;
@@ -36,15 +37,20 @@ img{
   display: block;
 }
 
-.sec{
+.sec1{
   padding: 10px;
   background-color: green;
 }
+.sec2{
+  padding: 10px;
+  background-color: lightgreen;
+}
 
 a:hover{
-  background-color: lightgreen;
+  background-color: lightyellow;
 }
 
 .container{
   width: 80%;
+  background-color: green;
 }
