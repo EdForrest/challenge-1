@@ -3,6 +3,48 @@
   text-align: center;
 }
 
+.page2 *{
+  font-family: sans-serif;
+  text-align:left;
+}
+
+.page3 *{
+  font-family: fantasy;
+}
+
+nav{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+ul li{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 1vw;
+}
+
 img{
   display: block;
+}
+
+.sec{
+  padding: 10px;
+  background-color: green;
+}
+
+a:hover{
+  background-color: lightgreen;
+}
+
+.container{
+  width: 80%;
 }
